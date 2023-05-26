@@ -10,6 +10,7 @@ env_logger = "0.10.0"
 itertools = "0.10.5"
 log = "0.4.17"
 num_cpus = "1.15.0"
+phf = { version = "0.11.1", features = ["macros"] }
 
 [features]
 default = ["all"]
